@@ -1,31 +1,15 @@
-@media screen and (max-width: 1200px){
-    #submit{
-        margin-left: 34rem;
-    }
-}
-@media screen and (max-width: 1000px){
-    #submit{
-        margin-left: 26rem;
-    }
-}
-@media screen and (max-width: 800px){
-    #submit{
-        margin-left: 19rem;
-    }
-}
-@media screen and (max-width: 600px){
-    #submit{
-        margin-left: 11rem;
-    }
-}
-.input-submit{
-    margin-left: 45rem;
+#submit {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 #footer{
     display: flex;
     justify-content:center;
     padding: 3px;
+    flex-wrap: wrap;
 }
+/* advanced page */
 .w3-border {
     width: 50%;
     padding: 2px;
